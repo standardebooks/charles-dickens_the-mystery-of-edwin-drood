@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/charles-dickens/the-mystery-of-edwin-drood</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -30,30 +31,30 @@
 		<dc:title id="title">The Mystery of Edwin Drood</dc:title>
 		<meta property="file-as" refines="#title">Mystery of Edwin Drood, The</meta>
 		<dc:subject id="subject-1">England -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-1">LCHS</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<dc:subject id="subject-2">Psychological fiction</dc:subject>
-		<meta property="authority" refines="#subject-2">LCHS</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85108438</meta>
 		<dc:subject id="subject-3">Triangles (Interpersonal relations) -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-3">LCHS</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008112615</meta>
 		<dc:subject id="subject-4">Cathedrals -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-4">LCHS</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008100618</meta>
 		<dc:subject id="subject-5">Missing persons -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-5">LCHS</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008107165</meta>
 		<dc:subject id="subject-6">Choral conductors -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-6">LCHS</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2009119388</meta>
 		<dc:subject id="subject-7">Separation (Psychology) -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-7">LCHS</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008111481</meta>
 		<dc:subject id="subject-8">Mystery fiction</dc:subject>
-		<meta property="authority" refines="#subject-8">LCHS</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">Unknown</meta>
-		<meta property="se:subject">Mystery</meta>
+		<meta property="schema:genre">Mystery</meta>
 		<dc:description id="description">A young man mysteriously vanishes, and all the suspects are discovered to be secretly in love with the missing man’s fiancé.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Choirmaster John Jasper has two secrets—an addiction to opium, and a burning love for Rosa, the fiancée of his nephew, Edwin Drood. When Edwin vanishes without a trace one night, his uncle becomes just one of the suspects in Edwin’s disappearance; it turns out several other residents of the town of Cloisterham also want Rosa’s affections. Who’s the real murderer? We’ll never know—author &lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Charles Dickens&lt;/a&gt; died with this, his final novel, only half finished, and he left no notes outlining how the story would end. (Dickens scholars have looked through his papers and correspondence for more than a century, hoping to find the answer).&lt;/p&gt;
@@ -63,20 +64,22 @@
 		<dc:source>https://www.gutenberg.org/ebooks/564</dc:source>
 		<dc:source>https://archive.org/details/mysteryofedwindr00dickrich</dc:source>
 		<dc:source>https://archive.org/details/in.ernet.dli.2015.225977</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Mystery_of_Edwin_Drood</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/charles-dickens_the-mystery-of-edwin-drood</meta>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
+		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Mystery_of_Edwin_Drood" rel="schema:sameAs"/>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/charles-dickens_the-mystery-of-edwin-drood" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Charles Dickens</dc:creator>
 		<meta property="file-as" refines="#author">Dickens, Charles</meta>
-		<meta property="se:name.person.full-name" refines="#author">Charles John Huffam Dickens</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Charles_Dickens</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/no2012115982</meta>
+		<meta property="schema:alternateName" refines="#author">Charles John Huffam Dickens</meta>
+		<link href="https://en.wikipedia.org/wiki/Charles_Dickens" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/no2012115982.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
 		<meta property="file-as" refines="#artist">Friedrich, Casper David</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Caspar_David_Friedrich</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79059754</meta>
+		<link href="https://en.wikipedia.org/wiki/Caspar_David_Friedrich" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79059754.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor-1">Iona Vaughan</dc:contributor>
 		<meta property="file-as" refines="#editor-1">Chapman &amp; Hall</meta>
@@ -93,7 +96,7 @@
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders Canada</meta>
-		<meta property="se:url.homepage" refines="#transcriber-4">http://www.pgdpcanada.net/</meta>
+		<link href="http://www.pgdpcanada.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Chris Spurgeon</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Spurgeon, Chris</meta>
