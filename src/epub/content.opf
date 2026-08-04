@@ -60,7 +60,7 @@
 		<meta id="collection-2" property="belongs-to-collection">Mystery Writers of America Top 100 Mysteries of All Time</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">47</meta>
-		<dc:abstract>A young man mysteriously vanishes, and all the suspects are secretly in love with his fiancé.</dc:abstract>
+		<meta property="schema:abstract">A young man mysteriously vanishes, and all the suspects are secretly in love with his fiancé.</meta>
 		<dc:description>
 			&lt;p&gt;Choirmaster John Jasper has two secrets: an addiction to opium, and a burning love for Rosa, the fiancée of his nephew, Edwin Drood. When Edwin vanishes without a trace one night, his uncle becomes just one of the suspects in Edwin’s disappearance, as it turns out that several other residents of the town of Cloisterham also seek Rosa’s affections. Who’s the real murderer? We’ll never know—&lt;a href="https://standardebooks.org/ebooks/charles-dickens"&gt;Dickens&lt;/a&gt; died with this, his final novel, only half finished, and he left no notes outlining how the story would end. Dickens scholars have pored over his papers and correspondence for more than a century, hoping to find the answer.&lt;/p&gt;
 			&lt;p&gt;Despite its conspicuous lack of conclusion, &lt;em&gt;The Mystery of Edwin Drood&lt;/em&gt; has been popular with mystery fans ever since it was first published in 1870, with many authors having tried their hand at crafting an ending.&lt;/p&gt;
