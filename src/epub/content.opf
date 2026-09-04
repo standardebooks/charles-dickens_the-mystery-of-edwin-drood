@@ -30,25 +30,25 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Mystery of Edwin Drood</dc:title>
 		<meta property="file-as" refines="#title">Mystery of Edwin Drood, The</meta>
-		<dc:subject id="subject-1">England -- Fiction</dc:subject>
+		<dc:subject id="subject-1">England--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<dc:subject id="subject-2">Psychological fiction</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85108438</meta>
-		<dc:subject id="subject-3">Triangles (Interpersonal relations) -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Triangles (Interpersonal relations)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">sh2008112615</meta>
-		<dc:subject id="subject-4">Cathedrals -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Cathedrals--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008100618</meta>
-		<dc:subject id="subject-5">Missing persons -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Missing persons--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008107165</meta>
-		<dc:subject id="subject-6">Choral conductors -- Fiction</dc:subject>
+		<dc:subject id="subject-6">Choral conductors--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2009119388</meta>
-		<dc:subject id="subject-7">Separation (Psychology) -- Fiction</dc:subject>
+		<dc:subject id="subject-7">Separation (Psychology)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008111481</meta>
 		<dc:subject id="subject-8">Mystery fiction</dc:subject>
