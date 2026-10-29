@@ -79,7 +79,7 @@
 		<meta property="file-as" refines="#author">Dickens, Charles</meta>
 		<meta property="schema:alternateName" refines="#author">Charles John Huffam Dickens</meta>
 		<link href="https://en.wikipedia.org/wiki/Charles_Dickens" refines="#author" rel="schema:sameAs"/>
-		<link href="https://id.loc.gov/authorities/names/no2012115982.html" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n78087607.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
 		<meta property="file-as" refines="#artist">Friedrich, Casper David</meta>
