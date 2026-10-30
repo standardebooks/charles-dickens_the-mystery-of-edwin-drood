@@ -82,12 +82,12 @@
 		<link href="https://id.loc.gov/authorities/names/n78087607.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">Caspar David Friedrich</dc:contributor>
-		<meta property="file-as" refines="#artist">Friedrich, Casper David</meta>
+		<meta property="file-as" refines="#artist">Friedrich, Caspar David</meta>
 		<link href="https://en.wikipedia.org/wiki/Caspar_David_Friedrich" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n79059754.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="editor-1">Iona Vaughan</dc:contributor>
-		<meta property="file-as" refines="#editor-1">Chapman &amp; Hall</meta>
+		<meta property="file-as" refines="#editor-1">Vaughan, Iona</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="transcriber-1">Iona Vaughan</dc:contributor>
@@ -99,12 +99,13 @@
 		<dc:contributor id="transcriber-3">Mark Akrigg</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Akrigg, Mark</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">Distributed Proofreaders</dc:contributor>
+		<dc:contributor id="transcriber-4">Distributed Proofreaders Canada</dc:contributor>
 		<meta property="file-as" refines="#transcriber-4">Distributed Proofreaders Canada</meta>
-		<link href="http://www.pgdpcanada.net/" refines="#transcriber-4" rel="schema:url"/>
+		<link href="https://www.pgdpcanada.net/" refines="#transcriber-4" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Chris Spurgeon</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Spurgeon, Chris</meta>
+		<link href="https://www.spurgeonworld.com/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -112,6 +113,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="writer-of-foreword">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#writer-of-foreword">Anonymous</meta>
 		<meta property="role" refines="#writer-of-foreword" scheme="marc:relators">wfw</meta>
 		<dc:contributor id="producer-2">Lukas Bystricky</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Bystricky, Lukas</meta>
